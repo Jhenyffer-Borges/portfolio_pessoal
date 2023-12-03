@@ -15,16 +15,16 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    flex-wrap: wrap; /* Permitir que os elementos quebrem para a próxima linha em telas menores */
-    position: relative; /* Adicionado para posicionamento relativo */
+    flex-wrap: wrap; 
+    position: relative;
 }
 
 img {
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    object-fit: 20px; /* Adicionando um espaço entre a imagem e o texto */
-    margin-bottom: 20px; /* Adicionando um espaço entre a imagem e o texto */
+    object-fit: 20px; 
+    margin-bottom: 20px; 
     margin-left: 160px;
 }
 
