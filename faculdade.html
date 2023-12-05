@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Vida Acadêmica</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #1e272e;
+            color: #fff;
+        }
+
+        h2 {
+            text-align: center;
+            color: #fff;
+        }
+
+        #container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            position: relative;
+        }
+
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            position: relative;
+            margin-top: 20px;
+        }
+
+        .event {
+            display: flex;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .event-date {
+            width: 80px;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+
+        .event-description {
+            flex-grow: 1;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .profile-image {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+
+        .mensagem {
+            max-width: 600px;
+            margin-bottom: 100px;
+            margin-left: 50px;
+            animation: fadeInRight 1s ease-out;
+            position: relative;
+        }
+
+        .flecha {
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #ffcc00;
+            font-size: 24px;
+        }
+
+        .frase-box {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .balao {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            max-width: 300px;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            font-style: italic;
+        }
+
+        .contato-btn,
+        .home-btn {
+            position: fixed;
+            bottom: 20px;
+            right: calc(20px + 1cm);
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #ffcc00;
+            border: 1px solid #ffcc00;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .contato-btn:hover,
+        .home-btn:hover {
+            background-color: #e0b800;
+            color: #fff;
+            transform: scale(1.1);
+        }
+
+        @keyframes fadeInRight {
+            from {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h2>Minha Vida Acadêmica</h2>
+
+        <div class="timeline">
+            <div class="event">
+                <div class="event-date">2016</div>
+                <div class="event-description">
+                    <h3>Início da Jornada</h3>
+                    <p>Comecei a explorar o mundo acadêmico. Explorando novas oportunidades.Iniciei um curso de Sistemas de Informação na Unimeo em minha cidade natal. <br>Não pude pagar pelo curso então dei um tempo do meio acadêmico.</p>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="event-date">2019</div>
+                <div class="event-description">
+                    <h3>Licenciatura em Ciências Sociais</h3>
+                    <p>Ingressei no curso de Ciência Sociais por gostar da ideia de ajudar pessoas construirem pensamentos críticos sobre a sociedade, Estudei até 2021 mas tranquei por questões de logística, pois era necessário ir a outra cidade.</p>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="event-date">Atual</div>
+                <div class="event-description">
+                    <h3>Ciência de Dados</h3>
+                    <p> Conheci o curso e me interessei pelo mundo da análise de dados. Atualmente estou no terceiro semestre.</p>
+                </div>
+            </div>
+
+            <div class="event-date">CURSOS</div>
+            <div class="event-description">
+                <!-- Conteúdo dos cursos aqui... -->
+            </div>
+
+            <div class="event">
+                <div class="event-date">2010-2014</div>
+                <div class="event-description">
+                    <h3>Técnico em administração</h3>
+                    <p>Curso técnico integrado ao ensino médio</p>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="event-date">2023 - 04/2023 </div>
+                <div class="event-description">
+                    <h3>Microsoft Power BI</h3>
+                    <p>Power Query, análise de dados e Dashboards</p>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="event-date">2023 - 08/2023</div>
+                <div class="event-description">
+                    <h3>Banco de dados</h3>
+                    <p>Linguagem SQL</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="formulario.html" class="contato-btn">Entre em Contato</a>
+    <a href="index.html" class="home-btn">Retornar à Página Inicial</a>
+</body>
+
+</html>

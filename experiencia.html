@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Vida Acadêmica</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #1e272e;
+            color: #fff;
+        }
+
+        h2 {
+            text-align: center;
+            color: #fff;
+        }
+
+        #container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            position: relative;
+        }
+
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            position: relative;
+            margin-top: 20px;
+        }
+
+        .event {
+            display: flex;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .event-date {
+            width: 80px;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+
+        .event-description {
+            flex-grow: 1;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .profile-image {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+
+        .mensagem {
+            max-width: 600px;
+            margin-bottom: 100px;
+            margin-left: 50px;
+            animation: fadeInRight 1s ease-out;
+            position: relative;
+        }
+
+        .flecha {
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #ffcc00;
+            font-size: 24px;
+        }
+
+        .frase-box {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .balao {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            max-width: 300px;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            font-style: italic;
+        }
+
+        .contato-btn,
+        .home-btn {
+            position: fixed;
+            bottom: 20px;
+            right: calc(20px + 1cm);
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #ffcc00;
+            border: 1px solid #ffcc00;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .contato1-btn,
+        .home-btn {
+            position: fixed;
+            bottom: 20px;
+            right: calc(60px + 1cm);
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #ffcc00;
+            border: 1px solid #ffcc00;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .contato1-btn:hover,
+        .home-btn:hover {
+            background-color: #e0b800;
+            color: #fff;
+            transform: scale(1.1);
+        }
+
+        @keyframes fadeInRight {
+            from {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h2>Experiência Profissional</h2>
+
+        <div class="event">
+            <div class="event-date">Atual</div>
+            <div class="event-description">
+                <h3>Suporte Tecnico</h3>
+                <p>Auxiliar no esclarecimentos de dúvidas aos clientes, Auxiliar no lançamento de informações no sistema, Auxiliar no suporte aos clientes, Auxílio no Suporte em 
+                    Software Comercial, Suporte a clientes externos, buscando resolver na totalidade os problemas encontrados.Auxiliar no esclarecimentos de dúvidas aos clientes, Auxiliar no lançamento de informações no sistema, Auxiliar no suporte aos clientes, Auxílio no Suporte em Software Comercial, Suporte a clientes externos, buscando resolver na totalidade os problemas encontrados.
+                    Competências: Resolução de problemas · Relacionamento com clientes</p>
+            </div>
+        </div>
+
+        <div class="timeline">
+
+            <div class="event">
+                <div class="event-date">Junho 2023 - Outubro 2023</div>
+                <div class="event-description">
+                    <h3>Sales Representative Development - SDR</h3>
+                    <p>Líder do time de vendas, desempenhando a função de SDR (Representante de desenvolvimento de vendas). Minhas responsabilidades incluiam a identificação, prospecção e qualificação de leads ao longo do pipeline de vendas. Através da aplicação de técnicas de copywriting e com o suporte de Inteligência Artificial, conseguimos otimizar nossas operações e alcançar um aumento constante nas, vendas.</p>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="event-date">Maio 2022- Abril 2023</div>
+                <div class="event-description">
+                    <h3>Representante Comercial</h3>
+                    <p>Realizava a prospecção ativa de vendas e conduzia vendas através de e-mail, WhatsApp e Skype, complementando com visitas presenciais conforme necessário. Assumi responsabilidade integral, abrangendo desde a fase de pré-venda até o pós-venda, visando o alcance de metas e a plena satisfação do cliente com o meu atendimento.</p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="event-date">Julho 2021 - Abril 2022</div>
+                <div class="event-description">
+                    <h3>Gerente de Loja</h3>
+                    <p>Encarregada de auxiliar a administração do espaço, assegurando um controle preciso e a reposição de estoque, me comunicar e negociar com fornecedores era algo bastante frequente. Minha dedicação era garantir a adesão estrita às diretrizes da franquia e promover treinamento contínuo à equipe. Liderei com planejamento e calma.</p>
+                </div>
+            </div>
+
+            
+    <a href="formulario.html" class="contato1-btn">Entre em Contato</a>
+    <a href="index.html" class="home-btn">Retornar à Página Inicial</a>
+</body>
+
+</html>
+
